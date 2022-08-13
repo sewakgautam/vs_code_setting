@@ -1,1 +1,197 @@
-# vs_code_setting
+
+# Vscode User Settings
+
+Hello coders, I hope if u land here then you definitly be from the Dev community \
+Here is the My Vscode Setting which i loved most. Just copy it and use it.
+
+
+
+
+
+
+
+## Json Code
+Just Copy it and paste on your Vscode setting. 
+
+Lets make this work easier \
+You can Copy it From here.
+
+```json
+  {
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "editor.renderWhitespace": "none",
+  "editor.minimap.renderCharacters": false,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.fontSize": 19,
+  "editor.semanticHighlighting.enabled": false,
+  // "window.zoomLevel": 1,
+  // intellisense
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.suggest.localityBonus": true,
+  "editor.wordBasedSuggestions": true,
+  "editor.parameterHints.enabled": true,
+  // indent rainbow
+  "indentRainbow.indicatorStyle": "classic",
+  "indentRainbow.updateDelay": 100,
+  "indentRainbow.excludedLanguages": ["plaintext"],
+  //
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingBrackets": "always",
+  "editor.trimAutoWhitespace": true,
+  "editor.minimap.maxColumn": 100,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.wordWrap": "on",
+  "editor.renderLineHighlight": "gutter",
+  "editor.linkedEditing": true,
+  "editor.matchBrackets": "never",
+  // "editor.multiCursorModifier": "ctrlCmd",
+  // "editor.quickSuggestions": {
+  // 	"other": false,
+  // 	"comments": false,
+  // 	"strings": false
+  // },
+  "emmet.triggerExpansionOnTab": true,
+  "window.nativeTabs": true,
+  "workbench.sideBar.location": "right",
+  // "workbench.activityBar.visible": false,
+  // "workbench.statusBar.visible": false,
+  "window.titleBarStyle": "custom",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "Operator Mono,Dank Mono, JetBrains Mono, monolisa, Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontSize": 20,
+  "editor.fontWeight": "300",
+  "editor.letterSpacing": 0.4,
+  "terminal.integrated.fontFamily": "Fira code",
+  "terminal.integrated.fontWeight": "100",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "editor.fontLigatures": true,
+  // "editor.lineHeight": 0,
+  "editor.lineHeight": 35,
+  "editor.rulers": [100],
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "editor.smoothScrolling": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.snippetSuggestions": "top",
+  "files.insertFinalNewline": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "explorer.confirmDelete": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[js,ts,jsx,tsx]": {
+    "editor.formatOnType": false,
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+  },
+  "eslint.debug": true,
+  "files.defaultLanguage": "\\n",
+  "editor.inlineSuggest.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": false
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "django-html": "html",
+    "jinja-html": "html"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "extensions.ignoreRecommendations": true,
+  // "workbench.iconTheme": "eq-material-theme-icons",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "editor.accessibilitySupport": "off",
+  "zenMode.hideLineNumbers": false,
+  "editor.emptySelectionClipboard": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/*.code-search": true,
+    "ios/": true,
+    "android/": true,
+    "dist/": true,
+    "yarn.lock": true,
+    "package-lock.json": true,
+    ".gitignore": true,
+    ".expo": true,
+    ".vscode": true
+  },
+  "sync.autoUpload": true,
+  "sync.quietSync": true,
+  "css.lint.unknownAtRules": "ignore",
+  "workbench.productIconTheme": "fluent-icons",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "importSorter.importStringConfiguration.quoteMark": "double",
+  "importSorter.importStringConfiguration.hasSemicolon": true,
+  "cSpell.userWords": [
+    "astro",
+    "Bonacibo",
+    "browserslist",
+    "coffeeservice",
+    "craco",
+    "dzangolab",
+    "esbuild",
+    "fastify",
+    "sewak",
+    "sewakgautam",
+    "languagedetector",
+    "maxprice",
+    "middlewares",
+    "nestjs",
+    "Offcanvas",
+    "gautam",
+    "phpmyadmin",
+    "pnpm",
+    "pnpx",
+    "senecajs",
+    "typeorm"
+  ],
+  "redhat.telemetry.enabled": false,
+  "howIVSCode.userIdentificationKey": "60fb33d6b58d20de23cda69f23e7ce",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.suggestSmartCommit": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.colorTheme": "One Dark Pro Italic Vivid",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "githubPullRequests.createOnPublishBranch": "never"
+}
+```
+

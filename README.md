@@ -84,7 +84,8 @@ You can Copy it From here.
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "expand",
   "editor.smoothScrolling": true,
-  "files.trimTrailingWhitespace": true,
+    // "files.trimTrailingWhitespace": true,
+  // this above line will remove space on our file(comment this above line if your workspace has save on type feature)
   "editor.snippetSuggestions": "top",
   "files.insertFinalNewline": true,
   "workbench.editor.highlightModifiedTabs": true,

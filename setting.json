@@ -1,3 +1,4 @@
+//
 {
   "workbench.iconTheme": "eq-material-theme-icons-darker",
   "editor.renderWhitespace": "none",
@@ -65,8 +66,11 @@
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "expand",
   "editor.smoothScrolling": true,
-  "files.trimTrailingWhitespace": true,
+  // "files.trimTrailingWhitespace": true,
+  // this above line will remove space on our file(comment this above line if your workspace has save on type feature)
   "editor.snippetSuggestions": "top",
+
+  //till here
   "files.insertFinalNewline": true,
   "workbench.editor.highlightModifiedTabs": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
